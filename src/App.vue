@@ -53,13 +53,15 @@ export default {
     rail: false,
     selectedItem: 0,
     items: [
-      { text: 'MembersList', icon: 'mdi-account-group', to: '/' },
-      { text: 'MemberDetails', icon: 'mdi-file-account',to: '/receipedetails' },
-      { text: 'AddMember', icon: 'mdi-account-plus', to: '/addreceipe' },
+      { text: 'Employée', icon: 'mdi-account', to: '/' },
+    
+      { text: 'Ajouter un employé', icon: 'mdi-account-plus', to: '/addemployee' },
 
     ],
-
+   
 
   }),
+
+  
 }
 </script>
